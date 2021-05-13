@@ -109,7 +109,7 @@ if warplace then
 	local amigo,brr = pcall(function()
     game:GetService("RunService"):UnbindFromRenderStep(game.Players.LocalPlayer.Name .. "Main")
 	end)
-	local f = w:CreateFolder("Credits")
+	local f = w:CreateFolder("Misc")
     f:Label("made by leonardd#5719",{
         TextSize = 15;
         TextColor = Color3.fromRGB(0,128,0); 
